@@ -1,0 +1,13 @@
+//<PROJECT FOLDER>/.vscode/settings.json
+{
+  "python.formatting.provider": "black",
+  "formattingToggle.affects": [
+    "editor.formatOnSave"
+  ],
+  "[python]": { "editor.formatOnSaveMode": "file" },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true
+}
