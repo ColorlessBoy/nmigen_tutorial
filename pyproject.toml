@@ -4,11 +4,12 @@ version = "0.1.0"
 description = ""
 authors = ["penglingwei <penglingwei@zju.edu.cn>"]
 readme = "README.md"
-packages = [{include = "manim_tutorial"}]
+packages = [{include = "nmigen_tutorial"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
-manim = "^0.16.0.post0"
+nmigen = {git = "https://gitlab.com/nmigen/nmigen.git"}
+nmigen-boards = {git = "https://gitlab.com/nmigen/nmigen-boards.git"}
 
 
 [[tool.poetry.source]]
